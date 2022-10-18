@@ -19,6 +19,12 @@ module.exports = {
             boxShadow: {
                 searchshadow: "0 1px 6px rgb(32 33 36 / 28%)"
             },
+            fontSize: {
+                small: '13px',
+                medium: '15px',
+                default: '14px',
+
+            }
 
 
         },

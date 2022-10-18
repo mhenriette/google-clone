@@ -22908,6 +22908,18 @@ video {
   line-height: 1;
 }
 
+.text-small {
+  font-size: 13px;
+}
+
+.text-medium {
+  font-size: 15px;
+}
+
+.text-default {
+  font-size: 14px;
+}
+
 .font-thin {
   font-weight: 100;
 }
@@ -54467,6 +54479,18 @@ video {
     line-height: 1;
   }
 
+  .sm\:text-small {
+    font-size: 13px;
+  }
+
+  .sm\:text-medium {
+    font-size: 15px;
+  }
+
+  .sm\:text-default {
+    font-size: 14px;
+  }
+
   .sm\:font-thin {
     font-weight: 100;
   }
@@ -85648,6 +85672,18 @@ video {
   .md\:text-9xl {
     font-size: 8rem;
     line-height: 1;
+  }
+
+  .md\:text-small {
+    font-size: 13px;
+  }
+
+  .md\:text-medium {
+    font-size: 15px;
+  }
+
+  .md\:text-default {
+    font-size: 14px;
   }
 
   .md\:font-thin {
@@ -116833,6 +116869,18 @@ video {
     line-height: 1;
   }
 
+  .lg\:text-small {
+    font-size: 13px;
+  }
+
+  .lg\:text-medium {
+    font-size: 15px;
+  }
+
+  .lg\:text-default {
+    font-size: 14px;
+  }
+
   .lg\:font-thin {
     font-weight: 100;
   }
@@ -148016,6 +148064,18 @@ video {
     line-height: 1;
   }
 
+  .xl\:text-small {
+    font-size: 13px;
+  }
+
+  .xl\:text-medium {
+    font-size: 15px;
+  }
+
+  .xl\:text-default {
+    font-size: 14px;
+  }
+
   .xl\:font-thin {
     font-weight: 100;
   }
@@ -179197,6 +179257,18 @@ video {
   .\32xl\:text-9xl {
     font-size: 8rem;
     line-height: 1;
+  }
+
+  .\32xl\:text-small {
+    font-size: 13px;
+  }
+
+  .\32xl\:text-medium {
+    font-size: 15px;
+  }
+
+  .\32xl\:text-default {
+    font-size: 14px;
   }
 
   .\32xl\:font-thin {
