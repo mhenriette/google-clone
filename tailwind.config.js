@@ -13,6 +13,14 @@ module.exports = {
 
 
             },
+            fontFamily: {
+                arial: ['Arial', 'sans-serif']
+            },
+            boxShadow: {
+                searchshadow: "0 1px 6px rgb(32 33 36 / 28%)"
+            },
+
+
         },
     },
     plugins: [],
