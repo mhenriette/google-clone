@@ -9,7 +9,8 @@ module.exports = {
                 lightgray: '#dadce0;',
                 cyanblue: '#f8f9fa;',
                 arsenic: '#3c4043',
-                darkblue: '#1a0dab;'
+                darkblue: '#1a0dab;',
+                lightblue: '#4285f4'
 
 
             },
@@ -23,8 +24,10 @@ module.exports = {
                 small: '13px',
                 medium: '15px',
                 default: '14px',
+                extrasmall: '12px'
 
             }
+
 
 
         },

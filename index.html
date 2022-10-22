@@ -13,9 +13,9 @@
 <body class="font-arial ">
     <nav class="flex  justify-between sm:justify-end py-2 px-4  items-center space-x-5 text-arsenic text-sm">
         <!-- hidden div on bigscreens  -->
-        <div class="flex space-x-5 sm:hidden font-semibold items-center">
+        <div class="flex space-x-5 sm:hidden font-semibold text-extrasmall items-center ">
             <svg class="text-gray-400 w-6 h-6" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"></path><path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"></path></svg>
-            <a href="" class="text-blue-600  border-b-2 border-blue-600 border-solid ">ALL</a>
+            <a href="" class="text-lightblue underline underline-offset decoration-lightblue  ">ALL</a>
             <a href="#">IMAGES</a>
         </div>
         <div class="flex space-x-3 items-center text-small">
@@ -56,22 +56,37 @@
     </section>
     <footer class="flex flex-col   bg-gray95 w-full text-darkgray absolute bottom-0">
         <!-- first section rwanda -->
-        <div class=" border-b border-solid py-4 px-8 border-gray-300 text-medium">
+        <div class=" border-b  border-solid py-2 px-4 md:py-4 md:px-8 mb-5 md:mb-0 border-gray-300 text-small md:text-medium">
             <p>Rwanda</p>
         </div>
 
         <!-- list section -->
-        <div class="flex flex-col md:justify-between md:flex-row px-5 text-default">
+        <div class="hidden flex-col md:justify-between md:flex-row px:3 md:px-5 text-xs md:text-default border-t border-solid border-gray-300 mt-5 md:mt-0 md:border-none md:flex ">
             <div class="flex items-center justify-evenly flex-wrap ">
-                <a href="# " class="p-4 hover:underline">About </a>
-                <a href="# " class="p-4 hover:underline">Advertising</a>
-                <a href="# " class="p-4 hover:underline">Business</a>
-                <a href="# " class="p-4 hover:underline">How Search works</a>
+                <a href="# " class="p-2  md:p-4 hover:underline">About </a>
+                <a href="# " class="p-2  md:p-4 hover:underline">Advertising</a>
+                <a href="# " class="p-2  md:p-4  hover:underline">Business</a>
+                <a href="# " class="p-2  md:p-4 hover:underline">How Search works</a>
             </div>
             <div class="flex justify-center items-center">
-                <a href=" " class="p-4 hover:underline">Privacy</a>
-                <a href=" " class="p-4 hover:underline">Terms</a>
-                <a href=" " class="p-4 hover:underline">Settings</a>
+                <a href=" " class="p-2  md:p-4  hover:underline">Privacy</a>
+                <a href=" " class="p-2  md:p-4  hover:underline">Terms</a>
+                <a href=" " class="p-2  md:p-4  hover:underline">Settings</a>
+            </div>
+
+        </div>
+        <!-- list items on mobile -->
+        <div class="flex flex-col md:justify-between md:flex-row px:3 md:px-5 text-xs md:text-default border-t border-solid border-gray-300 mt-5 md:mt-0 md:border-none md:hidden py-2 ">
+            <div class="flex items-center justify-evenly flex-wrap ">
+                <a href="# " class="p-2  md:p-4 hover:underline">Dark theme: off</a>
+                <a href="# " class="p-2  md:p-4 hover:underline">Settings</a>
+                <a href="# " class="p-2  md:p-4  hover:underline">Privacy</a>
+                <a href="# " class="p-2  md:p-4 hover:underline">Terms</a>
+            </div>
+            <div class="flex justify-center items-center">
+                <a href=" " class="p-2  md:p-4  hover:underline">Advertising</a>
+                <a href=" " class="p-2  md:p-4  hover:underline">Bussiness</a>
+                <a href=" " class="p-2  md:p-4  hover:underline">About</a>
             </div>
 
         </div>
