@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer components{
+.underline-offset{
+    text-underline-offset: 10px;
+    text-decoration-thickness: 3px;
+}
+}
